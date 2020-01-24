@@ -540,3 +540,8 @@ PRODUCT_USES_QCOM_HARDWARE := true
 SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
 SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
 SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
+
+# Pixel Offline charger
+PRODUCT_PACKAGES+= \
+    charger_res_images \
+    product_charger_res_images

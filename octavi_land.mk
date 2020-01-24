@@ -30,6 +30,8 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
+USE_PIXEL_CHARGER := true
+
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := true
