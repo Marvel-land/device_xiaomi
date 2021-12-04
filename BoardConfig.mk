@@ -206,6 +206,9 @@ MALLOC_SVELTE_FOR_LIBC32 := true
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
+# LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Memory Config
 MALLOC_SVELTE := true
 
