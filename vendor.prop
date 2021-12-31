@@ -141,6 +141,12 @@ dalvik.vm.dex2oat-threads=8
 dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.image-dex2oat-filter=quicken
 dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=96m
+dalvik.vm.heapsize=256m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
 
 # Display
 debug.sf.enable_hwc_vds=1
