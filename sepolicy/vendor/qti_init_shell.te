@@ -17,3 +17,10 @@ allow qti_init_shell sysfs_leds:file { setattr };
 allow qti_init_shell configfs:dir { write };
 
 allow qti_init_shell configfs:dir { add_name };
+
+allow qti_init_shell adsprpc_prop:property_service { set };
+
+allow qti_init_shell configfs:file { create };
+
+allow init socket_device:sock_file { create };
+
